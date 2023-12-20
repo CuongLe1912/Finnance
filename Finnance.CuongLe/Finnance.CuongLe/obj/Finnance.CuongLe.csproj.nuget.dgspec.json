@@ -1,0 +1,471 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\CuongLM\\API\\Finnance.CuongLe\\Finnance.CuongLe\\Finnance.CuongLe.csproj": {}
+  },
+  "projects": {
+    "C:\\CuongLM\\API\\Finnance.CuongLe\\Finnance.CuongLe\\Finnance.CuongLe.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\CuongLM\\API\\Finnance.CuongLe\\Finnance.CuongLe\\Finnance.CuongLe.csproj",
+        "projectName": "Finnance.CuongLe",
+        "projectPath": "C:\\CuongLM\\API\\Finnance.CuongLe\\Finnance.CuongLe\\Finnance.CuongLe.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "C:\\CuongLM\\API\\Finnance.CuongLe\\Finnance.CuongLe\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\CuongLM\\API\\Finnance.CuongLe\\Framework\\URF.Core.Helper\\URF.Core.Helper.csproj": {
+                "projectPath": "C:\\CuongLM\\API\\Finnance.CuongLe\\Framework\\URF.Core.Helper\\URF.Core.Helper.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.25, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[6.0.25, )"
+            },
+            "Microsoft.AspNetCore.SignalR.Protocols.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[6.0.25, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.IdentityModel": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "Swashbuckle.AspNetCore.Swagger": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerGen": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerUI": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            },
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\CuongLM\\API\\Finnance.CuongLe\\Framework\\URF.Core.Abstractions.Trackable\\URF.Core.Abstractions.Trackable.csproj": {
+      "version": "3.1.0",
+      "restore": {
+        "projectUniqueName": "C:\\CuongLM\\API\\Finnance.CuongLe\\Framework\\URF.Core.Abstractions.Trackable\\URF.Core.Abstractions.Trackable.csproj",
+        "projectName": "URF.Core.Abstractions.Trackable",
+        "projectPath": "C:\\CuongLM\\API\\Finnance.CuongLe\\Framework\\URF.Core.Abstractions.Trackable\\URF.Core.Abstractions.Trackable.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "C:\\CuongLM\\API\\Finnance.CuongLe\\Framework\\URF.Core.Abstractions.Trackable\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "C:\\CuongLM\\API\\Finnance.CuongLe\\Framework\\URF.Core.Abstractions\\URF.Core.Abstractions.csproj": {
+                "projectPath": "C:\\CuongLM\\API\\Finnance.CuongLe\\Framework\\URF.Core.Abstractions\\URF.Core.Abstractions.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "TrackableEntities.Common.Core": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\CuongLM\\API\\Finnance.CuongLe\\Framework\\URF.Core.Abstractions\\URF.Core.Abstractions.csproj": {
+      "version": "3.1.2",
+      "restore": {
+        "projectUniqueName": "C:\\CuongLM\\API\\Finnance.CuongLe\\Framework\\URF.Core.Abstractions\\URF.Core.Abstractions.csproj",
+        "projectName": "URF.Core.Abstractions",
+        "projectPath": "C:\\CuongLM\\API\\Finnance.CuongLe\\Framework\\URF.Core.Abstractions\\URF.Core.Abstractions.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "C:\\CuongLM\\API\\Finnance.CuongLe\\Framework\\URF.Core.Abstractions\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\CuongLM\\API\\Finnance.CuongLe\\Framework\\URF.Core.EF.Trackable\\URF.Core.EF.Trackable.csproj": {
+      "version": "3.1.0",
+      "restore": {
+        "projectUniqueName": "C:\\CuongLM\\API\\Finnance.CuongLe\\Framework\\URF.Core.EF.Trackable\\URF.Core.EF.Trackable.csproj",
+        "projectName": "URF.Core.EF.Trackable",
+        "projectPath": "C:\\CuongLM\\API\\Finnance.CuongLe\\Framework\\URF.Core.EF.Trackable\\URF.Core.EF.Trackable.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "C:\\CuongLM\\API\\Finnance.CuongLe\\Framework\\URF.Core.EF.Trackable\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "C:\\CuongLM\\API\\Finnance.CuongLe\\Framework\\URF.Core.Abstractions.Trackable\\URF.Core.Abstractions.Trackable.csproj": {
+                "projectPath": "C:\\CuongLM\\API\\Finnance.CuongLe\\Framework\\URF.Core.Abstractions.Trackable\\URF.Core.Abstractions.Trackable.csproj"
+              },
+              "C:\\CuongLM\\API\\Finnance.CuongLe\\Framework\\URF.Core.Abstractions\\URF.Core.Abstractions.csproj": {
+                "projectPath": "C:\\CuongLM\\API\\Finnance.CuongLe\\Framework\\URF.Core.Abstractions\\URF.Core.Abstractions.csproj"
+              },
+              "C:\\CuongLM\\API\\Finnance.CuongLe\\Framework\\URF.Core.EF\\URF.Core.EF.csproj": {
+                "projectPath": "C:\\CuongLM\\API\\Finnance.CuongLe\\Framework\\URF.Core.EF\\URF.Core.EF.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "MongoDB.Bson": {
+              "target": "Package",
+              "version": "[2.10.4, )"
+            },
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "TrackableEntities.Common.Core": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "TrackableEntities.EF.Core": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\CuongLM\\API\\Finnance.CuongLe\\Framework\\URF.Core.EF\\URF.Core.EF.csproj": {
+      "version": "3.1.2",
+      "restore": {
+        "projectUniqueName": "C:\\CuongLM\\API\\Finnance.CuongLe\\Framework\\URF.Core.EF\\URF.Core.EF.csproj",
+        "projectName": "URF.Core.EF",
+        "projectPath": "C:\\CuongLM\\API\\Finnance.CuongLe\\Framework\\URF.Core.EF\\URF.Core.EF.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "C:\\CuongLM\\API\\Finnance.CuongLe\\Framework\\URF.Core.EF\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "C:\\CuongLM\\API\\Finnance.CuongLe\\Framework\\URF.Core.Abstractions\\URF.Core.Abstractions.csproj": {
+                "projectPath": "C:\\CuongLM\\API\\Finnance.CuongLe\\Framework\\URF.Core.Abstractions\\URF.Core.Abstractions.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[3.1.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\CuongLM\\API\\Finnance.CuongLe\\Framework\\URF.Core.Helper\\URF.Core.Helper.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\CuongLM\\API\\Finnance.CuongLe\\Framework\\URF.Core.Helper\\URF.Core.Helper.csproj",
+        "projectName": "URF.Core.Helper",
+        "projectPath": "C:\\CuongLM\\API\\Finnance.CuongLe\\Framework\\URF.Core.Helper\\URF.Core.Helper.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "C:\\CuongLM\\API\\Finnance.CuongLe\\Framework\\URF.Core.Helper\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\CuongLM\\API\\Finnance.CuongLe\\Framework\\URF.Core.EF.Trackable\\URF.Core.EF.Trackable.csproj": {
+                "projectPath": "C:\\CuongLM\\API\\Finnance.CuongLe\\Framework\\URF.Core.EF.Trackable\\URF.Core.EF.Trackable.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "DevExtreme.AspNet.Data": {
+              "target": "Package",
+              "version": "[2.6.2, )"
+            },
+            "FastMember": {
+              "target": "Package",
+              "version": "[1.5.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
+            "System.Linq": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.Linq.Dynamic.Core": {
+              "target": "Package",
+              "version": "[1.2.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

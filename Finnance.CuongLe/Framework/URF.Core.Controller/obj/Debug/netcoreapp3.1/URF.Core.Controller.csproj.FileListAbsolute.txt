@@ -1,0 +1,5 @@
+C:\CuongLM\API\Finnance.CuongLe\Framework\URF.Core.Controller\obj\Debug\netcoreapp3.1\URF.Core.Controller.csproj.AssemblyReference.cache
+C:\CuongLM\API\Finnance.CuongLe\Framework\URF.Core.Controller\obj\Debug\netcoreapp3.1\URF.Core.Controller.GeneratedMSBuildEditorConfig.editorconfig
+C:\CuongLM\API\Finnance.CuongLe\Framework\URF.Core.Controller\obj\Debug\netcoreapp3.1\URF.Core.Controller.AssemblyInfoInputs.cache
+C:\CuongLM\API\Finnance.CuongLe\Framework\URF.Core.Controller\obj\Debug\netcoreapp3.1\URF.Core.Controller.AssemblyInfo.cs
+C:\CuongLM\API\Finnance.CuongLe\Framework\URF.Core.Controller\obj\Debug\netcoreapp3.1\URF.Core.Controller.csproj.CoreCompileInputs.cache
