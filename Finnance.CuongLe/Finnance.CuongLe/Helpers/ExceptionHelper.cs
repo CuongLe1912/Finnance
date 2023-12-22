@@ -1,6 +1,7 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Finnance.CuongLe.Data.Entities;
+using Microsoft.AspNetCore.Mvc;
 
-namespace Meey.Admin.Helper
+namespace Finnance.CuongLe.Helper
 {
     public class ExceptionHelper
     {

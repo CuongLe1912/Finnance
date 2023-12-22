@@ -1,6 +1,6 @@
-﻿using Finnance.CuongLe.Data.Entities;
+﻿using Finnance.CuongLe.Data.Entities.Account;
 
-namespace Meey.Admin.Data.Entities
+namespace Finnance.CuongLe.Data.Entities
 {
     public class LogException : BaseEntity
     {
@@ -10,7 +10,7 @@ namespace Meey.Admin.Data.Entities
         public string? StackTrace { get; set; }
         public string? InnerException { get; set; }
 
-        // virtual
-        //public virtual User User { get; set; }
+        //virtual
+        public virtual User? User { get; set; }
     }
 }

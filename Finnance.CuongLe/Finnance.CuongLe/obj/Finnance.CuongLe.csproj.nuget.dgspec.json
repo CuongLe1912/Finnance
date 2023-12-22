@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\CuongLM\\API\\Finnance.CuongLe\\Finnance.CuongLe\\Finnance.CuongLe.csproj": {}
+    "C:\\CuongLM\\Finnance\\Finnance.CuongLe\\Finnance.CuongLe\\Finnance.CuongLe.csproj": {}
   },
   "projects": {
-    "C:\\CuongLM\\API\\Finnance.CuongLe\\Finnance.CuongLe\\Finnance.CuongLe.csproj": {
+    "C:\\CuongLM\\Finnance\\Finnance.CuongLe\\Finnance.CuongLe\\Finnance.CuongLe.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\CuongLM\\API\\Finnance.CuongLe\\Finnance.CuongLe\\Finnance.CuongLe.csproj",
+        "projectUniqueName": "C:\\CuongLM\\Finnance\\Finnance.CuongLe\\Finnance.CuongLe\\Finnance.CuongLe.csproj",
         "projectName": "Finnance.CuongLe",
-        "projectPath": "C:\\CuongLM\\API\\Finnance.CuongLe\\Finnance.CuongLe\\Finnance.CuongLe.csproj",
+        "projectPath": "C:\\CuongLM\\Finnance\\Finnance.CuongLe\\Finnance.CuongLe\\Finnance.CuongLe.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\CuongLM\\API\\Finnance.CuongLe\\Finnance.CuongLe\\obj\\",
+        "outputPath": "C:\\CuongLM\\Finnance\\Finnance.CuongLe\\Finnance.CuongLe\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\CuongLM\\API\\Finnance.CuongLe\\Framework\\URF.Core.Helper\\URF.Core.Helper.csproj": {
-                "projectPath": "C:\\CuongLM\\API\\Finnance.CuongLe\\Framework\\URF.Core.Helper\\URF.Core.Helper.csproj"
+              "C:\\CuongLM\\Finnance\\Finnance.CuongLe\\Framework\\URF.Core.Helper\\URF.Core.Helper.csproj": {
+                "projectPath": "C:\\CuongLM\\Finnance\\Finnance.CuongLe\\Framework\\URF.Core.Helper\\URF.Core.Helper.csproj"
               }
             }
           }
@@ -48,11 +48,19 @@
               "target": "Package",
               "version": "[6.0.25, )"
             },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.25, )"
+            },
             "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
               "target": "Package",
               "version": "[6.0.25, )"
             },
             "Microsoft.AspNetCore.SignalR.Protocols.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[6.0.25, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[6.0.25, )"
             },
@@ -87,10 +95,6 @@
             "Swashbuckle.AspNetCore.SwaggerUI": {
               "target": "Package",
               "version": "[6.5.0, )"
-            },
-            "System.Text.Json": {
-              "target": "Package",
-              "version": "[5.0.0, )"
             }
           },
           "imports": [
@@ -115,14 +119,14 @@
         }
       }
     },
-    "C:\\CuongLM\\API\\Finnance.CuongLe\\Framework\\URF.Core.Abstractions.Trackable\\URF.Core.Abstractions.Trackable.csproj": {
+    "C:\\CuongLM\\Finnance\\Finnance.CuongLe\\Framework\\URF.Core.Abstractions.Trackable\\URF.Core.Abstractions.Trackable.csproj": {
       "version": "3.1.0",
       "restore": {
-        "projectUniqueName": "C:\\CuongLM\\API\\Finnance.CuongLe\\Framework\\URF.Core.Abstractions.Trackable\\URF.Core.Abstractions.Trackable.csproj",
+        "projectUniqueName": "C:\\CuongLM\\Finnance\\Finnance.CuongLe\\Framework\\URF.Core.Abstractions.Trackable\\URF.Core.Abstractions.Trackable.csproj",
         "projectName": "URF.Core.Abstractions.Trackable",
-        "projectPath": "C:\\CuongLM\\API\\Finnance.CuongLe\\Framework\\URF.Core.Abstractions.Trackable\\URF.Core.Abstractions.Trackable.csproj",
+        "projectPath": "C:\\CuongLM\\Finnance\\Finnance.CuongLe\\Framework\\URF.Core.Abstractions.Trackable\\URF.Core.Abstractions.Trackable.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\CuongLM\\API\\Finnance.CuongLe\\Framework\\URF.Core.Abstractions.Trackable\\obj\\",
+        "outputPath": "C:\\CuongLM\\Finnance\\Finnance.CuongLe\\Framework\\URF.Core.Abstractions.Trackable\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -139,8 +143,8 @@
           "netstandard2.1": {
             "targetAlias": "netstandard2.1",
             "projectReferences": {
-              "C:\\CuongLM\\API\\Finnance.CuongLe\\Framework\\URF.Core.Abstractions\\URF.Core.Abstractions.csproj": {
-                "projectPath": "C:\\CuongLM\\API\\Finnance.CuongLe\\Framework\\URF.Core.Abstractions\\URF.Core.Abstractions.csproj"
+              "C:\\CuongLM\\Finnance\\Finnance.CuongLe\\Framework\\URF.Core.Abstractions\\URF.Core.Abstractions.csproj": {
+                "projectPath": "C:\\CuongLM\\Finnance\\Finnance.CuongLe\\Framework\\URF.Core.Abstractions\\URF.Core.Abstractions.csproj"
               }
             }
           }
@@ -179,14 +183,14 @@
         }
       }
     },
-    "C:\\CuongLM\\API\\Finnance.CuongLe\\Framework\\URF.Core.Abstractions\\URF.Core.Abstractions.csproj": {
+    "C:\\CuongLM\\Finnance\\Finnance.CuongLe\\Framework\\URF.Core.Abstractions\\URF.Core.Abstractions.csproj": {
       "version": "3.1.2",
       "restore": {
-        "projectUniqueName": "C:\\CuongLM\\API\\Finnance.CuongLe\\Framework\\URF.Core.Abstractions\\URF.Core.Abstractions.csproj",
+        "projectUniqueName": "C:\\CuongLM\\Finnance\\Finnance.CuongLe\\Framework\\URF.Core.Abstractions\\URF.Core.Abstractions.csproj",
         "projectName": "URF.Core.Abstractions",
-        "projectPath": "C:\\CuongLM\\API\\Finnance.CuongLe\\Framework\\URF.Core.Abstractions\\URF.Core.Abstractions.csproj",
+        "projectPath": "C:\\CuongLM\\Finnance\\Finnance.CuongLe\\Framework\\URF.Core.Abstractions\\URF.Core.Abstractions.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\CuongLM\\API\\Finnance.CuongLe\\Framework\\URF.Core.Abstractions\\obj\\",
+        "outputPath": "C:\\CuongLM\\Finnance\\Finnance.CuongLe\\Framework\\URF.Core.Abstractions\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -233,14 +237,14 @@
         }
       }
     },
-    "C:\\CuongLM\\API\\Finnance.CuongLe\\Framework\\URF.Core.EF.Trackable\\URF.Core.EF.Trackable.csproj": {
+    "C:\\CuongLM\\Finnance\\Finnance.CuongLe\\Framework\\URF.Core.EF.Trackable\\URF.Core.EF.Trackable.csproj": {
       "version": "3.1.0",
       "restore": {
-        "projectUniqueName": "C:\\CuongLM\\API\\Finnance.CuongLe\\Framework\\URF.Core.EF.Trackable\\URF.Core.EF.Trackable.csproj",
+        "projectUniqueName": "C:\\CuongLM\\Finnance\\Finnance.CuongLe\\Framework\\URF.Core.EF.Trackable\\URF.Core.EF.Trackable.csproj",
         "projectName": "URF.Core.EF.Trackable",
-        "projectPath": "C:\\CuongLM\\API\\Finnance.CuongLe\\Framework\\URF.Core.EF.Trackable\\URF.Core.EF.Trackable.csproj",
+        "projectPath": "C:\\CuongLM\\Finnance\\Finnance.CuongLe\\Framework\\URF.Core.EF.Trackable\\URF.Core.EF.Trackable.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\CuongLM\\API\\Finnance.CuongLe\\Framework\\URF.Core.EF.Trackable\\obj\\",
+        "outputPath": "C:\\CuongLM\\Finnance\\Finnance.CuongLe\\Framework\\URF.Core.EF.Trackable\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -257,14 +261,14 @@
           "netstandard2.1": {
             "targetAlias": "netstandard2.1",
             "projectReferences": {
-              "C:\\CuongLM\\API\\Finnance.CuongLe\\Framework\\URF.Core.Abstractions.Trackable\\URF.Core.Abstractions.Trackable.csproj": {
-                "projectPath": "C:\\CuongLM\\API\\Finnance.CuongLe\\Framework\\URF.Core.Abstractions.Trackable\\URF.Core.Abstractions.Trackable.csproj"
+              "C:\\CuongLM\\Finnance\\Finnance.CuongLe\\Framework\\URF.Core.Abstractions.Trackable\\URF.Core.Abstractions.Trackable.csproj": {
+                "projectPath": "C:\\CuongLM\\Finnance\\Finnance.CuongLe\\Framework\\URF.Core.Abstractions.Trackable\\URF.Core.Abstractions.Trackable.csproj"
               },
-              "C:\\CuongLM\\API\\Finnance.CuongLe\\Framework\\URF.Core.Abstractions\\URF.Core.Abstractions.csproj": {
-                "projectPath": "C:\\CuongLM\\API\\Finnance.CuongLe\\Framework\\URF.Core.Abstractions\\URF.Core.Abstractions.csproj"
+              "C:\\CuongLM\\Finnance\\Finnance.CuongLe\\Framework\\URF.Core.Abstractions\\URF.Core.Abstractions.csproj": {
+                "projectPath": "C:\\CuongLM\\Finnance\\Finnance.CuongLe\\Framework\\URF.Core.Abstractions\\URF.Core.Abstractions.csproj"
               },
-              "C:\\CuongLM\\API\\Finnance.CuongLe\\Framework\\URF.Core.EF\\URF.Core.EF.csproj": {
-                "projectPath": "C:\\CuongLM\\API\\Finnance.CuongLe\\Framework\\URF.Core.EF\\URF.Core.EF.csproj"
+              "C:\\CuongLM\\Finnance\\Finnance.CuongLe\\Framework\\URF.Core.EF\\URF.Core.EF.csproj": {
+                "projectPath": "C:\\CuongLM\\Finnance\\Finnance.CuongLe\\Framework\\URF.Core.EF\\URF.Core.EF.csproj"
               }
             }
           }
@@ -319,14 +323,14 @@
         }
       }
     },
-    "C:\\CuongLM\\API\\Finnance.CuongLe\\Framework\\URF.Core.EF\\URF.Core.EF.csproj": {
+    "C:\\CuongLM\\Finnance\\Finnance.CuongLe\\Framework\\URF.Core.EF\\URF.Core.EF.csproj": {
       "version": "3.1.2",
       "restore": {
-        "projectUniqueName": "C:\\CuongLM\\API\\Finnance.CuongLe\\Framework\\URF.Core.EF\\URF.Core.EF.csproj",
+        "projectUniqueName": "C:\\CuongLM\\Finnance\\Finnance.CuongLe\\Framework\\URF.Core.EF\\URF.Core.EF.csproj",
         "projectName": "URF.Core.EF",
-        "projectPath": "C:\\CuongLM\\API\\Finnance.CuongLe\\Framework\\URF.Core.EF\\URF.Core.EF.csproj",
+        "projectPath": "C:\\CuongLM\\Finnance\\Finnance.CuongLe\\Framework\\URF.Core.EF\\URF.Core.EF.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\CuongLM\\API\\Finnance.CuongLe\\Framework\\URF.Core.EF\\obj\\",
+        "outputPath": "C:\\CuongLM\\Finnance\\Finnance.CuongLe\\Framework\\URF.Core.EF\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -343,8 +347,8 @@
           "netstandard2.1": {
             "targetAlias": "netstandard2.1",
             "projectReferences": {
-              "C:\\CuongLM\\API\\Finnance.CuongLe\\Framework\\URF.Core.Abstractions\\URF.Core.Abstractions.csproj": {
-                "projectPath": "C:\\CuongLM\\API\\Finnance.CuongLe\\Framework\\URF.Core.Abstractions\\URF.Core.Abstractions.csproj"
+              "C:\\CuongLM\\Finnance\\Finnance.CuongLe\\Framework\\URF.Core.Abstractions\\URF.Core.Abstractions.csproj": {
+                "projectPath": "C:\\CuongLM\\Finnance\\Finnance.CuongLe\\Framework\\URF.Core.Abstractions\\URF.Core.Abstractions.csproj"
               }
             }
           }
@@ -387,14 +391,14 @@
         }
       }
     },
-    "C:\\CuongLM\\API\\Finnance.CuongLe\\Framework\\URF.Core.Helper\\URF.Core.Helper.csproj": {
+    "C:\\CuongLM\\Finnance\\Finnance.CuongLe\\Framework\\URF.Core.Helper\\URF.Core.Helper.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\CuongLM\\API\\Finnance.CuongLe\\Framework\\URF.Core.Helper\\URF.Core.Helper.csproj",
+        "projectUniqueName": "C:\\CuongLM\\Finnance\\Finnance.CuongLe\\Framework\\URF.Core.Helper\\URF.Core.Helper.csproj",
         "projectName": "URF.Core.Helper",
-        "projectPath": "C:\\CuongLM\\API\\Finnance.CuongLe\\Framework\\URF.Core.Helper\\URF.Core.Helper.csproj",
+        "projectPath": "C:\\CuongLM\\Finnance\\Finnance.CuongLe\\Framework\\URF.Core.Helper\\URF.Core.Helper.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\CuongLM\\API\\Finnance.CuongLe\\Framework\\URF.Core.Helper\\obj\\",
+        "outputPath": "C:\\CuongLM\\Finnance\\Finnance.CuongLe\\Framework\\URF.Core.Helper\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -411,8 +415,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\CuongLM\\API\\Finnance.CuongLe\\Framework\\URF.Core.EF.Trackable\\URF.Core.EF.Trackable.csproj": {
-                "projectPath": "C:\\CuongLM\\API\\Finnance.CuongLe\\Framework\\URF.Core.EF.Trackable\\URF.Core.EF.Trackable.csproj"
+              "C:\\CuongLM\\Finnance\\Finnance.CuongLe\\Framework\\URF.Core.EF.Trackable\\URF.Core.EF.Trackable.csproj": {
+                "projectPath": "C:\\CuongLM\\Finnance\\Finnance.CuongLe\\Framework\\URF.Core.EF.Trackable\\URF.Core.EF.Trackable.csproj"
               }
             }
           }

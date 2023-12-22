@@ -3,7 +3,7 @@ using TrackableEntities.Common.Core;
 using URF.Core.Abstractions.Trackable;
 using URF.Core.EF.Trackable;
 
-namespace Meey.Admin.Repository
+namespace Finnance.CuongLe.Repository
 {
     public interface IRepositoryX<TEntity> : ITrackableRepository<TEntity> where TEntity : class, ITrackable
     {

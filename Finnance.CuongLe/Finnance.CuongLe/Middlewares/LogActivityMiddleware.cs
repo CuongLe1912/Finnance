@@ -1,7 +1,6 @@
 ﻿using Finnance.CuongLe.Data.Entities;
-using Meey.Admin.Data.Entities;
-using Meey.Admin.Helper;
-using Meey.Admin.Repository;
+using Finnance.CuongLe.Helper;
+using Finnance.CuongLe.Repository;
 using Microsoft.AspNetCore.Mvc.Controllers;
 using Newtonsoft.Json.Linq;
 using System.Net;
